@@ -1,0 +1,33 @@
+
+
+.cuadrotareas {
+   width: 30vw;
+   height: 32vh;
+   border: 3px solid;
+   border-color: rgb(63, 57, 38);
+   background-color: rgb(103, 107, 115);
+   box-shadow: 7px 7px 10px;
+   
+   margin: 50px;
+   margin-left: 30%;
+}
+ 
+
+.titulocuadro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15;
+    padding: 5xp;
+    color: white;
+}
+
+#Totales {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.detalletareas {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18;
+            color: chartreuse;
+}
