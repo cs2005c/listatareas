@@ -11,9 +11,14 @@ document.getElementById('ingresotareas').addEventListener('submit', function (e)
 
         const detalletareas = document.getElementById('ListaTareas');
         const li = document.createElement('li');
-        li.textContent = `${tarea}`;
+        let TotalTareas = document.querySelectorAll('#ListaTareas li').length;
+        ++TotalTareas;
+        const idtarea=TotalTareas;
+        li.textContent = `${idtarea} / ${tarea}`;
         detalletareas.appendChild(li);
-        
+        document.getElementById('Totales').textContent = "Total : "+TotalTareas;
+        document.getElementById('nombretarea').value = '';
+
 
 
 })
