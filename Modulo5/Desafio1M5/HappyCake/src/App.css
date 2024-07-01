@@ -1,0 +1,5 @@
+.nav-icon {
+  width: 20px; /* Ancho deseado para la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-right: 5px; /* Espacio a la derecha de la imagen */
+}
